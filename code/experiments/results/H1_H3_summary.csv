@@ -1,0 +1,5 @@
+Режим,trace_sigma(t=0),trace_sigma(t=T),Δtrace_sigma%,kl_from_initial(t=0),kl_from_initial(t=T),Δkl_from_initial%,intra_list_diversity(t=0),intra_list_diversity(t=T),Δintra_list_diversity%
+closed_loop,27.735,0.865,-96.9%,0.024,16.877,+71357.8%,3.438,4.346,+26.4%
+static,27.735,0.878,-96.8%,0.024,17.245,+72918.1%,3.438,4.405,+28.1%
+fresh_oracle,27.735,0.723,-97.4%,0.024,16.947,+71653.1%,3.438,4.717,+37.2%
+no_influence,29.269,4.057,-86.1%,0.011,7.309,+64372.2%,3.438,4.454,+29.5%

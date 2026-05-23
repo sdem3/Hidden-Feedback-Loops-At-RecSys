@@ -1,0 +1,4 @@
+mode,catalog_coverage_t0,catalog_coverage_tT,Δcatalog_coverage%,gini_t0,gini_tT,Δgini%,agg_diversity_t0,agg_diversity_tT,Δagg_diversity%,mean_popularity_rank_t0,mean_popularity_rank_tT,Δmean_popularity_rank%
+closed_loop,0.6789,0.237,-65.1%,0.672,0.9139,+36.0%,0.9946,0.9763,-1.8%,1520.1378,1621.9195,+6.7%
+open_loop,0.6789,0.7101,+4.6%,0.672,0.7652,+13.9%,0.9946,0.9847,-1.0%,1520.1378,1302.4849,-14.3%
+static,0.6789,0.6789,+0.0%,0.672,0.672,+0.0%,0.9946,0.9946,-0.0%,1520.1378,1520.1378,+0.0%

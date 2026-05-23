@@ -1,0 +1,3 @@
+Режим,trace_sigma(t=0),trace_sigma(t=T),Δtrace_sigma%,kl(t=0),kl(t=T),Δkl%,lambda_max(t=0),lambda_max(t=T),Δlambda_max%,mean_cos_dist(t=0),mean_cos_dist(t=T),Δmean_cos_dist%
+closed_loop,7.132,5.390,-24.4%,0.000,0.807,+inf%,0.931,0.753,-19.2%,0.984,0.956,-2.9%
+no_retrain,7.132,6.522,-8.5%,0.000,1.786,+inf%,0.931,1.982,+112.8%,0.984,0.904,-8.2%
