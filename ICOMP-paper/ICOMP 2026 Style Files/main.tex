@@ -1,0 +1,79 @@
+\documentclass{article} % For LaTeX2e
+\usepackage{icomp2026_conference,times}
+
+% Optional math commands from https://github.com/goodfeli/dlbook_notation.
+\input{math_commands.tex}
+
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+\usepackage{booktabs}
+
+% ---------------------------------------------------------------------------
+% TITLE  (working — refine before submission)
+% ---------------------------------------------------------------------------
+\title{Two Channels of Degradation in Recommender Feedback Loops:\\
+Universal Taste Contraction and the Covariance Signature of Retraining}
+
+% Authors must NOT appear in the submitted version. Keep \icompfinalcopy
+% commented out until camera-ready. Non-anonymous submissions are rejected.
+\author{Anonymous Authors}
+
+%\icompfinalcopy % Uncomment ONLY for camera-ready, NOT for submission.
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Industrial recommender systems are periodically retrained on the interaction
+logs they themselves generate, closing a hidden feedback loop in which clicks
+cease to be a neutral measurement of preference and observed quality metrics can
+rise even as true utility falls. We study the resulting degradation in an
+agent-based simulation and on real data, and show that it decomposes into two
+distinct channels. The first is a universal $\beta$-channel: every click drags a
+user's taste toward the consumed item, geometrically contracting diversity
+regardless of whether the model is retrained. We prove this contraction
+(Theorem~1) and confirm it across serving regimes and on MovieLens-20M, where it
+accounts for roughly a $97\%$ loss of taste variance. The second is a
+retraining-specific loop channel, and its signature is subtle: we find that the
+commonly tracked collapse of total taste variance $\operatorname{tr}\hat\Sigma$
+is driven by the $\beta$-channel, \emph{not} by retraining, whereas the loop's
+own fingerprint lives in the \emph{shape} of the taste covariance and is captured
+by the dispersion term of $\mathrm{KL}(P_T\Vert P_0)$ rather than by the trace.
+This signature appears only when the model distinguishes users, the audience is
+multi-modal, and the population is open; we further test the natural hypothesis
+that retraining narrows the served distribution and refute it by direct
+measurement, pointing instead to retargeting of drifted users. The results yield
+a practical takeaway: the loop must be diagnosed through the observed--true
+metric gap and the geometry of the taste covariance, not through headline
+metrics, which improve precisely as the system degrades.
+\end{abstract}
+
+\section{Introduction}
+% TODO
+
+\section{Related work}
+% TODO
+
+\section{Problem setup}
+% TODO
+
+\section{Method / Theory}
+% TODO
+
+\section{Experiments}
+% TODO
+
+\section{Conclusion}
+% TODO
+
+\bibliography{references}
+\bibliographystyle{icomp2026_conference}
+
+\appendix
+\section{Appendix}
+% TODO
+
+\end{document}

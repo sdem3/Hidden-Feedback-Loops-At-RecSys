@@ -27,15 +27,23 @@ code/experiments/diagnostic/REPORT.md
 
 # Локальные правила и стилевые гайды (черновые материалы)
 paper/rules/
+paper/rules.md
 
-# Внешние референсные PDF (чужие работы — не публиковать)
+# Внешние референсные PDF и справочные материалы (чужие работы — не публиковать)
 paper/_refs/
+paper/sources/
+paper/рецензия/
+slides/refs_/
 
 # Memory-папка ассистента (если случайно окажется в репо)
 .claude/
 .memory/
 memory/
 .cache/
+
+# Локальные инструкции Codex/агентов
+AGENTS.md
+**/AGENTS.md
 
 # Локальные скиллы / кастомные конфиги
 skills/
@@ -58,6 +66,7 @@ skills/
 *.nav
 *.snm
 *.vrb
+*.xdv
 
 # =============================================================================
 # Python
@@ -105,6 +114,7 @@ desktop.ini
 scratch/
 notes_local.md
 todo_local.md
+temp.md
 
 # Загруженные архивы
 *.zip

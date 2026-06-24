@@ -27,8 +27,7 @@ paper/
 │   ├── rules_langley_icml.md
 │   ├── rules_machinelearning_ru.md
 │   └── rules_my_first_paper_course.md
-├── _refs/                ─ внешние референсные PDF (примеры чужих ВКР)
-└── CLAUDE.md             ─ инструкции для AI-агента, работающего над текстом
+└── _refs/                ─ внешние референсные PDF (примеры чужих ВКР)
 ```
 
 ## Сборка

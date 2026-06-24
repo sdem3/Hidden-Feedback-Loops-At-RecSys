@@ -1,0 +1,3 @@
+win_size,n_users,median_windows_per_user,n_window_diffs,beta_window_obs,beta_window_shuffle,beta_per_interaction_obs,beta_per_interaction_shuffle,S_nu2_obs,S_eps2_obs,frac_dims_drift_obs,frac_dims_drift_shuffle,genome_pca_evr
+10,47867,11,687912,0.79291,0.03723,0.079291,0.003723,0.94913,1.50966,1.0,0.35,0.589
+20,22790,9,239324,0.89406,0.0571,0.044703,0.002855,0.76697,0.95949,1.0,0.55,0.589

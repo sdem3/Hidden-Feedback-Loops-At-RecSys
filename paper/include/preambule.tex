@@ -93,11 +93,29 @@ breaklines=true
 \usepackage{indentfirst}
 
 %% Теоремные окружения (amsthm)
-\theoremstyle{plain}
+\newtheoremstyle{spacedplain}
+    {14pt}   % отступ перед окружением
+    {14pt}   % отступ после окружения
+    {\itshape}
+    {}
+    {\bfseries}
+    {.}
+    {.5em}
+    {}
+\newtheoremstyle{spaceddefinition}
+    {14pt}
+    {14pt}
+    {}
+    {}
+    {\bfseries}
+    {.}
+    {.5em}
+    {}
+\theoremstyle{spacedplain}
 \newtheorem{theorem}{Теорема}[section]
 \newtheorem{lemma}[theorem]{Лемма}
 \newtheorem{corollary}[theorem]{Следствие}
 \newtheorem{proposition}[theorem]{Предложение}
-\theoremstyle{definition}
+\theoremstyle{spaceddefinition}
 \newtheorem{definition}[theorem]{Определение}
 \newtheorem{remark}[theorem]{Замечание}
